@@ -1,0 +1,89 @@
+.parent{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.firstchild{
+    margin: 0 0 0 50px ;
+}
+
+#header2{
+    line-height: 5px;
+}
+
+#paragraph{
+    line-height: 5px;
+    letter-spacing: 4px;
+}
+
+#Li{
+    list-style-type: none;
+    display: inline-block;
+    width: 80px;
+    margin-top: 10px;
+}
+
+#secondLi{
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: small;
+    border: 1px solid grey;
+    color: black;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;  
+}
+
+select{
+    border: none;
+}
+
+
+
+/*The h3 and #para font color was made white and its clashes with the background image but it was left
+that way because the instruction says "you are to recreate this page as exactly as it is" */
+
+.body{
+    text-align: center;
+    padding-top: 150px;
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    height: 395px;
+    margin: -10px;
+    margin-top: 8px;
+    background-position: top;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    line-height: 1px;
+    color: white;
+    word-spacing: 10px;
+  
+}
+
+#para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: white;
+
+    
+}
+
+#sign-in{
+    font-size: 18px;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 30px 5px 30px;
+}
+
